@@ -34,22 +34,22 @@ function makeSound(key) {
       break;
 
     case "d":
-      var tom4 = new Audio("Sounds/tom-4.mp3");
+      var tom4 = new Audio("sounds/tom-4.mp3");
       tom4.play();
       break;
 
     case "j":
-      var snare = new Audio("Sounds/snare.mp3");
+      var snare = new Audio("sounds/snare.mp3");
       snare.play();
       break;
 
     case "k":
-      var crash = new Audio("Sounds/crash.mp3");
+      var crash = new Audio("sounds/crash.mp3");
       crash.play();
       break;
 
     case "l":
-      var kick = new Audio("Sounds/kick-bass.mp3");
+      var kick = new Audio("sounds/kick-bass.mp3");
       kick.play();
       break;
 
